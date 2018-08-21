@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-size: 18px;
+    font-family:"Microsoft YaHei",微软雅黑;
+}
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+#wrap{
+    height: 100%;
+
+    background-color: #000;
+}
+#wrap .header{
+    width: 100%;
+    height: 14%;
+    position: relative;
+}
+#wrap .section{
+    width: 100%;
+    height: 3%;
+}
+#wrap .header-en{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#wrap .header-en ul{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#wrap .header-en ul li{
+    width: 33.3%;
+    height: 100%;
+    list-style: none;
+    float: left;
+    text-align: center;
+    color: #333;
+    padding-top: 1%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#wrap .section .header-en .active3{
+    color: white;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+#wrap .header .logo{
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    width: 5%;
+    height: 80%;
+}
+#wrap nav{
+    width: 100%;
+    height: 6%;
+    background-color: #333333;
+}
+#wrap nav .header-list{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+#wrap nav .header-list ul{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#wrap nav .header-list ul li{
+    width: 33.3%;
+    list-style: none;
+    float: left;
+    text-align: center;
+    color: #666666;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrap .main{
+    width: 100%;
+    height: 57%;
+    overflow: hidden;
+    position: relative;
+}
+#wrap .main .swiper-container{
+    height: 100%;
+}
+#wrap .main .swiper-container .bg1{
+    background-image: url('../images/bg1.png');
+}
+#wrap .main .swiper-container .bg2{
+    background-image: url('../images/bg2.png');
+}
+#wrap .main .swiper-container .bg3{
+    background-image: url('../images/bg3.jpg');
+}
+#wrap .main .swiper-container .bg1,
+#wrap .main .swiper-container .bg2,
+#wrap .main .swiper-container .bg3{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+}
+
+#wrap .footer{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background-color: black;
+}
+#wrap .footer ul{
+    width: 15%;
+    margin: 0 auto;
+}
+#wrap .footer ul li{
+    width: 20%;
+    list-style: none;
+    float: left;
+    text-align: center;
+    color: #333333;
+    white-space:nowrap;
+    padding-top: 20px;
+}
+#wrap nav .header-list .active{
+    color: white;
+    background-color: #666666;
+}
+#wrap .footer .active2{
+    color: #666666;
+    font-weight: bold;
+}
+.dot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #333;
+}
+.logofont{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    width: 100px;
+    height: 20px;
+}
+.arrow-left{
+    background: url("../images/leftbtn.png") no-repeat left top;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    z-index: 999;
+}
+.arrow-right{
+    background: url("../images/leftbtn.png") no-repeat right top;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    z-index: 999;
+}
+.swiper-slide img:hover{
+    cursor: pointer;
+}
+
+#wrap .header .search-area{
+    position: absolute;
+    top: 56%;
+    right: 5%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #333333;
+}
+#wrap .header .search-area .search-area-input,
+#wrap .header .search-area .search-area-icon{
+    float: left;
+}
+#wrap .header .search-area .search-input{
+    background-color: #333333;
+    border: 0;
+    height: 30px;
+    outline: none;
+    color: white;
+    border-radius: 50px;
+    width: 0;
+}
+#wrap .header .search-area .searchBtn{
+    width: 40px;
+    height: 30px;
+}
+#wrap .header .search-area .searchBtn:hover{
+    cursor: pointer;
+}
+.swiper1,
+.swiper2,
+.swiper3{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+.swiper1 img,
+.swiper2 img,
+.swiper3 img{
+    width: 100%;
+}

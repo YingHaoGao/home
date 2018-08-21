@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="中渡，找导游，中渡官网">
+    <meta name="description" content="中渡旅游">
+    <title>中渡集团</title>
+    <link rel="Shortcut Icon" href="../zoomdu_favicon.ico" />
+    <link rel="stylesheet" href="style/swiper-3.3.1.min.css" type="text/css">
+    <link rel="stylesheet" href="style/app.css" type="text/css">
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <img src="images/logo.png" class="logo" alt="">
+        <div class="search-area">
+            <div class="area">
+                <form action="" method="">
+                    <div class="search-area-input"><input type="text" class="search-input" name=""></div>
+                    <div class="search-area-icon"><img src="images/search.png" class="searchBtn" alt=""></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="header-en">
+            <ul>
+                <li class="btn7">Tech</li>
+                <li class="btn8">Finance</li>
+                <li class="active3 btn9">Tourism</li>
+            </ul>
+        </div>
+    </div>
+    <nav>
+        <div class="header-list">
+            <ul>
+                <li class="btn1">科技</li>
+                <li class="btn2">金服</li>
+                <li class="active btn3">文旅</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide " onclick="window.location.href='http://m.zoomdu.com/'">
+                    <div class="swiper1"></div>
+                    <div class="swiper2"></div>
+                    <div class="swiper3"></div>
+                </div>
+                <div class="swiper-slide bg2" onclick="window.location.href='view/finance.html'"></div>
+                <div class="swiper-slide bg3" onclick="window.location.href='view/tourism.html'"></div>
+            </div>
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li class="btn4">北京</li>
+            <li><span class="dot"></span></li>
+            <li class="btn5">南宁</li>
+            <li><span class="dot"></span></li>
+            <li class="active2 btn6">洛阳</li>
+        </ul>
+    </div>
+</div>
+<script src="script/jquery-3.0.0.min.js"></script>
+<script src="script/swiper-3.3.1.min.js"></script>
+<script src="script/app.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        initialSlide :2,
+        onlyExternal : true
+    });
+</script>
+</body>
+</html>

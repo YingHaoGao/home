@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-size: 18px;
+    font-family:"Microsoft YaHei",微软雅黑;
+    overflow: hidden;
+}
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+#wrap{
+    height: 100%;
+}
+#wrap .header{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    background-image: url("../images/tourbg.jpg");
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position: center center;
+}
+.gf{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.gf2{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+}
+#wrap .footer{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    background-image: url("../images/tourbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrap .footer .list-area{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    color: #cccccc;
+}
+#wrap .footer .list-area li{
+    line-height: 30px;
+    letter-spacing:5px;
+}
+#wrap .footer .list-area li:hover{
+    cursor: pointer;
+}
+#wrap .footer .share-area{
+    position: absolute;
+    top: 7%;
+    right: 4%;
+}
+#wrap .footer .share-area li{
+    float: left;
+    width: 80px;
+    text-align: center;
+    position: relative;
+}
+#wrap .footer .share-area li img{
+    width: 30px;
+    height: 25px;
+}
+#wrap .footer .share-area li a{
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: 999;
+    background: none;
+}
+#wrap .footer .logo-area{
+    width: 100%;
+    text-align: center;
+}
+#wrap .footer .logo-area img{
+    width: 50px;
+    height: 70px;
+    margin-top: 20px;
+}
+.companyName{
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    position: absolute;
+    bottom: 10%;
+    letter-spacing:5px;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #ccc;
+    opacity: 0.2;
+    overflow: hidden;
+}
+.layer-content{
+    background-color: white;
+    font-size: 14px;
+    display: none;
+    height:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    overflow-y: auto;
+}
+.layer1,
+.layer2,
+.layer3{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.layer1 img{
+    width: 70px;
+    height: 90px;
+    margin-top: 5%;
+}
+.layer2 p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: left;
+    line-height: 25px;
+}
+.layer3 img{
+    width: 200px;
+    height: 50px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+.layer-content2{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+.layer-content3{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+.logofont{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    width: 100px;
+    height: 20px;
+}
+/*科技*/
+.content{
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    background:url('../images/technologybg.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+.content .btn-area{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+}
+.content .btn-area .androidBtn img,.content .btn-area .iosBtn img{
+    width: 220px;
+    height: 50px;
+}
+.content .btn-area .androidBtn{
+    margin-right: 30px;
+}
+.content .tfont{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    opacity: 1;
+}
+.content .tfont img{
+    width: 300px;
+    height: 200px;
+}
+.content .rightmove{
+    left: 10%;
+    animation:rightmove 3s linear;
+    -webkit-animation: rightmove 3s;
+}
+@keyframes rightmove
+{
+    from  {
+       left: 2%;
+        opacity: 0.2;
+    }
+    to {
+      left: 10%;
+      opacity: 1;
+    }
+}
+@-webkit-keyframes rightmove
+{
+    from {
+        left: 2%;
+        opacity: 0.2;
+    }
+    to {
+        left: 10%;
+        opacity: 1;
+    }
+}
+/*金服*/
+#wrap .top,#wrap .bottom{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#wrap .top img{
+    width: 70px;
+    height: 90px;
+    margin-top: 30px;
+}
+#wrap .container{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+#wrap .container p{
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+#wrap .bottom img{
+    margin-top: 70px;
+    width: 180px;
+}
+/*文旅视频*/
+.playBtn{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.layer-videoArea{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}

@@ -1,0 +1,8 @@
+
+.scd_l .sidenav li.now, .scd_l .sidenav li.active {
+    background: #2d5487;
+    border: 1px solid #2d5487;
+}
+.scd_l .sidenav li.now, .scd_l .sidenav li.active a {
+    color: #fff;
+}
